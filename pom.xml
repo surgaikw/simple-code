@@ -7,6 +7,10 @@
   <version>3</version>
   <name>LoginWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+  <sonar.organization>surgaikw</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <dependencies>
      <dependency>
             <groupId>javax.servlet</groupId>
